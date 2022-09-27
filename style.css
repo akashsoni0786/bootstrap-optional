@@ -1,0 +1,46 @@
+.homepage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#row{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+#row h3{
+    margin: 0px 20px;
+}
+#rightcontent
+{
+    margin: 20px;
+}
+.colls{
+    line-height: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: baseline; */
+}
+.marall{
+    margin:20px 0
+}
+#rightid{
+    max-width: 20rem;
+}
+#blogcard{
+    width: 55rem;
+    border: 1px solid rgb(196, 191, 191);
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+@media screen and (max-width:1285px) {
+    #rightid{
+        max-width: 90vw;
+    }
+    #blogcard{
+        width: 90vw;
+    }
+}
